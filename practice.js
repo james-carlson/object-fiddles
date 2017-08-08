@@ -184,7 +184,15 @@ var user1 = {
 that each value is truthy. If it's not truthy, remove it from the object. */
 
   //Code Here
-
+for (var prop in user1) {
+  if (user1.hasOwnProperty(prop)) {
+    if (user1[prop]) {
+      null 
+    } else {
+      delete user1[prop]
+    }
+  }
+}
 //Once you get your truthy Object, Change the remaining values in the object to be specific to you (name: 'your name', username: 'your username'), rather than my information.
 
   //Code Here
