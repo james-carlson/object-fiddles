@@ -9,7 +9,7 @@ var me = {
   age: 30
 }
 
-//alert(me.name);
+alert(me.name);
 
 //NEXT PROBLEM
 
@@ -65,7 +65,7 @@ that is named color, with the value being the color of your backpack. */
 //After you do the above, alert your entire backPack object.
 
   //Code here
-// alert(backPack);
+ alert(backPack);
 
 
 /*You probably noticed that it just alerted [object Object].
@@ -100,7 +100,7 @@ console.log(backPack);
   //Code Here
  for (var key in alsoMe) {
    if (alsoMe.hasOwnProperty(key)) {
-     //alert(alsoMe[key]);
+     alert(alsoMe[key]);
    }
  }
 
@@ -151,12 +151,6 @@ var album = {
 //Now, loop through your states object and if the states population is greater than 30K, alert that state.
 
   //Code Here
-// for (var songTitle in album) {
-//    if (album.hasOwnProperty(songTitle)) {
-//      alert(songTitle);
-//    }
-//  }
-
 for (var aState in states) {
   if (states.hasOwnProperty(aState)) {
     if (states[aState] > 30000) {
